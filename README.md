@@ -93,3 +93,29 @@ This repository contains my daily learning progress, tasks, and reflections as I
 ### 🧭 What’s Next
 
 > Next, we’ll explore **Responsive Design** techniques and start learning about **CSS Media Queries** and **Transitions/Animations**.
+
+---
+
+## 📅 **Day 5 — CSS Pseudo-classes, Animations & Transitions**
+
+> **Date:** _31/10/2025_  
+> **Topic:** CSS Pseudo-classes, Tooltips, Animations, Transitions, Transform Properties & Box Sizing
+
+### 🧩 What I Learned
+
+- 🎨 **Pseudo-classes:** Styled elements dynamically on hover, focus, and active states
+- 💬 **Tooltips:** Created informative hover-based tooltips using `position` and `visibility`
+- ⚙️ **Animations & Transitions:** Learned how to animate movement and visual effects
+- 🔄 **Transform Properties:** Practiced with `translate()`, `rotate()`, and `scale()`
+- 🧩 **Box Sizing & UI Styling:** Controlled layout consistency using `box-sizing: border-box`
+- 🧱 **Selectors & Buttons:** Enhanced interaction and aesthetics through advanced CSS selectors
+
+### 🧪 Task for the Day
+
+> Design an **animation** that moves an element **diagonally** using **transition** and **transform properties** to better understand CSS animation effects.
+
+### 🧭 What’s Next
+
+> Next, we’ll start with **Responsive CSS**, covering **Filters**, **Responsive Web Design Principles**, and **CSS Media Queries** to make web pages adaptable to different screen sizes.
+
+---
