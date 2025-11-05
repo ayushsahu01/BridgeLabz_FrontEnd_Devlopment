@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.Parent{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+.box1{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+}
+.box2{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+}
+.box3{
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 33%;
+    padding: 10px;
+}
+
+@media (max-width:700px){
+    body{
+        background-color: yellow;
+
+        /* max-width: ;
+        min-width: ;
+        text-decoration: ; */
+    }
+}
+
+@media (min-width:700px){
+    body{
+        background-color: red;
+    }
+}
+
+/* @media (max-resolution:1080dpi){
+    body{
+        background-color: rgb(32, 32, 18);
+    }
+} */
+
+/* @media (orientation:portrait){
+    body{
+        background-color: red;
+    }
+} */
