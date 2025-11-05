@@ -119,3 +119,26 @@ This repository contains my daily learning progress, tasks, and reflections as I
 > Next, we’ll start with **Responsive CSS**, covering **Filters**, **Responsive Web Design Principles**, and **CSS Media Queries** to make web pages adaptable to different screen sizes.
 
 ---
+
+## 📅 **Day 6 — Responsive CSS & Media Queries**
+
+> **Date:** _03/11/2025_  
+> **Topic:** Responsive CSS — Filters, Responsive Web Design Principles & CSS Media Queries
+
+### 🧩 What I Learned
+
+- 🌐 **Responsive Design Principles:** Learned how to make layouts adapt across various screen sizes
+- 🎨 **CSS Filters:** Applied visual effects like blur, brightness, and contrast to enhance images
+- 📱 **Media Queries:** Used breakpoints to adjust content and layout for mobile, tablet, and desktop views
+- 🧩 **Flexible Units:** Practiced using `%, vh, vw, em, rem` for scalable design
+- 💡 **Practical Understanding:** Tested responsiveness by resizing browser windows and simulating devices
+
+### 🧪 Task for the Day
+
+> Design a **responsive card UI** with a **title, image, and text**, including a **hover transition effect** to enhance interactivity and understand responsiveness better.
+
+### 🧭 What’s Next
+
+> Next, we’ll begin with **Bootstrap**, learning how to use **prebuilt components** and **responsive utilities** to design **modern, mobile-first layouts** efficiently.
+
+---
