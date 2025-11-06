@@ -142,3 +142,49 @@ This repository contains my daily learning progress, tasks, and reflections as I
 > Next, we’ll begin with **Bootstrap**, learning how to use **prebuilt components** and **responsive utilities** to design **modern, mobile-first layouts** efficiently.
 
 ---
+
+## 📅 **Day 7 — Introduction to Bootstrap**
+
+> **Date:** _05/11/2025_  
+> **Topic:** Introduction to Bootstrap, Bootstrap Basics, Grids & Bootstrap CSS
+
+### 🧩 What I Learned
+
+- ⚡ **Introduction to Bootstrap:** Understood how Bootstrap simplifies web design with prebuilt components
+- 🧱 **Bootstrap Basics:** Explored containers, rows, and columns for structured layouts
+- 🎨 **Bootstrap Grids:** Learned about the 12-column grid system and responsive breakpoints
+- 🧩 **Bootstrap CSS Utilities:** Used spacing, text, and background utility classes for quick styling
+- 📱 **Mobile-first Design:** Practiced creating responsive layouts efficiently with minimal custom CSS
+
+### 🧪 Task for the Day
+
+> Design a **responsive portfolio webpage** using **Bootstrap**, applying grid layouts, responsive utilities, and basic Bootstrap components.
+
+### 🧭 What’s Next
+
+> Next, we’ll **revise CSS** and explore more **Bootstrap components** such as **Carousel**, **Progress Bar**, and more to enhance web design skills.
+
+---
+
+## 📅 **Day 8 — Bootstrap Components & Responsive Design Revision**
+
+> **Date:** _06/11/2025_  
+> **Topic:** CSS Revision & Advanced Bootstrap Components (Carousel, Progress Bar, etc.)
+
+### 🧩 What I Learned
+
+- 🎨 **CSS Revision:** Revised essential styling concepts such as selectors, positioning, and box model  
+- ⚙️ **Bootstrap Components:** Explored **Carousel**, **Progress Bar**, and other UI components for better interactivity  
+- 🧱 **Responsive Layouts:** Strengthened understanding of responsive grids and layout alignment using Bootstrap  
+- 🌐 **Utility Classes:** Practiced using margin, padding, and display utilities for quick and clean styling  
+- 💡 **Integration:** Combined CSS and Bootstrap effectively to build modern, mobile-friendly designs  
+
+### 🧪 Task for the Day
+
+> Design a **responsive portfolio webpage** using **Bootstrap**, incorporating **Carousel** and **Progress Bar** components to demonstrate your understanding of responsive layouts.
+
+### 🧭 What’s Next
+
+> Next, we’ll begin with **Introduction to JavaScript**, learning how to make web pages **interactive** and **dynamic** using scripts.
+
+---
