@@ -187,9 +187,7 @@ Each day focuses on a new concept with hands-on tasks and clear learning outcome
 
 ## 🎯 **Next Steps**
 
-- Learn **JavaScript** for interactivity 🧩  
-- Explore **Node.js & Express** for backend 🌐  
-- Integrate **MongoDB** for database management 🗄️  
+- Learn **JavaScript** for interactivity 🧩    
 - Build a **full-stack project** using everything learned 💻  
 
 ---
