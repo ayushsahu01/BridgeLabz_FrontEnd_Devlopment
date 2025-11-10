@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 **Web Development Learning Journal**
+# 🌐 **Web Development Learning By BridgeLabz**
 _A step-by-step journey through my web development learning path_
 
 </div>
