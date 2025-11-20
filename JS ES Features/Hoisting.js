@@ -53,3 +53,37 @@ const student = {
     Department:"CSE"
 }
 console.log(student)
+
+//One way Empty object
+const car = new Object();
+car.brands = "KIA"
+car.model = "Carnival"
+car.price = 3000000
+
+//Constructor Function
+function bike(name, price){
+    this.name = name
+    this.price = price
+    this.greet = function()  //Anonymous Function
+    {
+        return `Hii My Name is ${this.name} and Price is ${this.price}`
+    }
+}
+const bike1 = new bike("KAWASAKI-Ninja H2R", 1800000)
+console.log(bike1.greet())
+
+//Using Create
+const child = {
+    greet()
+    {
+        console.log("Hii Ayush")
+    }
+}
+const child1 = Object.create(child)
+child1.greet()
+
+//Using JSON
+const person = `{"name":"Ayush", "age":20}`
+const jsonObj = JSON.parse(person)  //Converted to Json object from string
+console.log(jsonObj.name)
+const stringObj = JSON.stringify(jsonObj)  //Converted to String from Json Object
