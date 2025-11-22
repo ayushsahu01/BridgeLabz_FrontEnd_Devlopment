@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse Tracker</title>
+    <style>
+        #box {
+            width: 400px;
+            height: 400px;
+            border: 3px solid #333;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background: red;
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Mouse Path Tracker</h1>
+    <p id="coords">Move inside box...</p>
+
+    <div id="box"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

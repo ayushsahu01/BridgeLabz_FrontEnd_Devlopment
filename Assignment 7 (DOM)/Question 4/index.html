@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Theme Switcher</title>
+    <style>
+        :root {
+            --bg: #fff;
+            --fg: #111;
+            --accent: #0066cc;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: var(--bg);
+            color: var(--fg);
+            transition: background .2s, color .2s;
+            min-height: 100vh;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        button {
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+        }
+
+        /* Themes applied via data-theme attribute on body using setAttribute in JS */
+        body[data-theme="dark"] {
+            --bg: #121212;
+            --fg: #e6e6e6;
+            --accent: #9ad0ff;
+        }
+
+        body[data-theme="light"] {
+            --bg: #ffffff;
+            --fg: #111;
+            --accent: #0066cc;
+        }
+
+        body[data-theme="blue"] {
+            --bg: #eaf4ff;
+            --fg: #04223a;
+            --accent: #0077b6;
+        }
+
+        header {
+            padding: 12px;
+            border-radius: 8px;
+            background: linear-gradient(90deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.01));
+            margin-bottom: 12px;
+        }
+
+        .accent {
+            color: var(--accent);
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Theme Switcher</h1>
+        <p>Current theme: <span id="currentTheme" class="accent">light</span></p>
+    </header>
+
+    <div class="controls">
+        <button data-theme="light">Light</button>
+        <button data-theme="dark">Dark</button>
+        <button data-theme="blue">Blue</button>
+    </div>
+
+    <p style="margin-top:18px;">This demo uses <code>setAttribute()</code> to apply a <code>data-theme</code> attribute
+        to the <code>&lt;body&gt;</code>. CSS reads the attribute and sets CSS custom properties accordingly.</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

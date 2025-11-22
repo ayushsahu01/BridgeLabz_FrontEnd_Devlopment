@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery with Modal</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .gallery img {
+            width: 100%;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        /* Modal */
+        #modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+        }
+
+        #modalContent {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        #modalContent img {
+            width: 500px;
+            max-width: 90vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Image Gallery</h1>
+
+    <div class="gallery">
+        <img src="https://picsum.photos/200?1">
+        <img src="https://picsum.photos/200?2">
+        <img src="https://picsum.photos/200?3">
+        <img src="https://picsum.photos/200?4">
+        <img src="httpsum.photos/200?5">
+        <img src="https://picsum.photos/200?6">
+    </div>
+
+    <div id="modal">
+        <div id="modalContent">
+            <img id="modalImg">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

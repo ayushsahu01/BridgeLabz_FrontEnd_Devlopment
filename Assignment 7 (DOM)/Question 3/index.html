@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Multi-Step Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+        }
+
+        .step {
+            display: none;
+        }
+
+        .step.active {
+            display: block;
+        }
+
+        .buttons {
+            margin-top: 12px;
+            display: flex;
+            gap: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 6px;
+        }
+
+        .error {
+            color: #8b0000;
+            font-size: 0.9rem;
+            margin-top: 6px;
+        }
+
+        .summary {
+            border: 1px solid #ddd;
+            padding: 12px;
+            margin-top: 12px;
+            background: #f7f7f7;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>3-Step Form</h1>
+
+    <form id="multiForm" novalidate>
+        <div id="step1" class="step active" data-step="1">
+            <label>
+                Name:
+                <input type="text" id="nameInput" required />
+            </label>
+            <div id="nameError" class="error" aria-live="polite"></div>
+        </div>
+
+        <div id="step2" class="step" data-step="2">
+            <label>
+                Email:
+                <input type="email" id="emailInput" required />
+            </label>
+            <div id="emailError" class="error" aria-live="polite"></div>
+        </div>
+
+        <div id="step3" class="step" data-step="3">
+            <label>
+                Password:
+                <input type="password" id="passwordInput" required />
+            </label>
+            <div id="passwordError" class="error" aria-live="polite"></div>
+        </div>
+
+        <div class="buttons">
+            <button type="button" id="backBtn" disabled>Back</button>
+            <button type="button" id="nextBtn">Next</button>
+        </div>
+    </form>
+
+    <div id="summaryContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
