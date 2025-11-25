@@ -1,0 +1,40 @@
+.profile-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+    background-color: rgb(181, 188, 118);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #000000;
+    margin-bottom: 1rem;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0.5rem 0;
+    font-weight: 800;
+}
+
+.profile-course {
+    font-size: 1rem;
+    color: #000000;
+    margin: 0;
+    font-weight: 700;
+}
