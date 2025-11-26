@@ -12,7 +12,7 @@
 
 .profile-card:hover {
     transform: translateY(-5px);
-    background-color: rgb(181, 188, 118);
+    background-color: rgb(170, 253, 253);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
